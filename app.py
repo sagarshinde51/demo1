@@ -18,7 +18,7 @@ col1, col2 = st.columns(2)
 
 # Column for the image
 with col1:
-    st.image("D:\\nlp2.jpg", use_column_width=True)  # Adjust the path as necessary
+    st.image("nlp2.jpg", use_column_width=True)  # Adjust the path as necessary
 
 # Initialize session state
 if 'logged_in' not in st.session_state:
